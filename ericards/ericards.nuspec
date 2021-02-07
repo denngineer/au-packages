@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ericards</id>
+    <version>3.9.1</version>
+    <owners>denngineer</owners>
+    <title>Cefic ERICards Offline</title>
+    <authors>Pharox Automatisering B.V.</authors>
+    <projectUrl>http://ericards.net/</projectUrl>
+    <tags>ericards adr</tags>
+    <summary>The CEFIC Emergency Response Intervention Cards (ERICards or ERIC's) provide guidance on initial actions for fire crews when they first arrive at the scene of a chemical transport accident without having appropriate and reliable product specific emergency information at hand.</summary>
+    <description>The CEFIC Emergency Response Intervention Cards (ERICards or ERIC’s) provide guidance on initial actions for fire crews when they first arrive at the scene of a chemical transport accident without having appropriate and reliable product specific emergency information at hand.
+
+ERICards are intended for fire crews, trained in chemical emergency response, and contain information and procedures that may require specialised equipment.
+
+ERICards are intended to deal with chemical accidents involving a substantial amount of product, occurring during land transport only and may therefore not be appropriate for accidents in other situations.
+
+ERICards apply to a group of products, and hence can never be a substitute for the specific product information obtained from a reliable source (e.g. safety data sheet, reference databases or industry experts). Using ERICards therefore always requires sound judgement, taking into account the particular circumstances of each accident.</description>
+    <dependencies>
+      <dependency id="dotnet3.5" version="3.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
