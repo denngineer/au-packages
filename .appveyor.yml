@@ -30,7 +30,7 @@ environment:
     secure: qz9oUeiJhX4nxibb5T0dYw== #https://ci.appveyor.com/tools/encrypt
   mail_server:
     secure: 3ka4bhliRVHDY2nnOW2EHQ==
-  mail_port: 465
+  mail_port: 587
   mail_enablessl: true
 
   # ID of the gist used to save run results - create a gist under the github_user (secret or not) and grab the id - https://gist.github.com/name/id

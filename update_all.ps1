@@ -72,14 +72,14 @@ $Options = [ordered]@{
     }
 
     RunInfo = @{
-        Exclude = 'password', 'apikey', 'apitoken'          #Option keys which contain those words will be removed
+        Exclude = 'password', 'apikey', 'apitoken', 'server', 'from', 'to', 'username'  #Option keys which contain those words will be removed
         Path    = "$PSScriptRoot\update_info.xml"           #Path where to save the run info
     }
 
     Mail = if ($Env:mail_user) {
             @{
                 To         = $Env:mail_user
-                From       = $Env:mail_from
+                From       = $Env:mail_user
                 Server     = $Env:mail_server
                 UserName   = $Env:mail_user
                 Password   = $Env:mail_pass
